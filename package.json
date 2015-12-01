@@ -1,0 +1,29 @@
+{
+  "name": "proxy-test",
+  "version": "0.0.1",
+  "description": "Tests a given proxy configuration by making a simple http(s) request through it.",
+  "main": "proxy-test.js",
+  "scripts": {
+    "test": "node proxy-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "proxy",
+    "test",
+    "client",
+    "rest"
+  ],
+  "dependencies": {
+    "https-proxy-agent": "^1.0.0",
+    "http-proxy-agent": "^1.0.0",
+    "https-proxied": "*",
+    "extend": "*",
+    "deasync": "*",
+    "string_decoder": "*"
+  },
+  "author": "Mehmet Gerceker",
+  "license": "MIT"
+}
