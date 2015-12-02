@@ -7,7 +7,9 @@ Makes a simple REST API call to a status endpoint.
 
 * Execute ```npm install``` in the project root.
 
-* Edit the ```var PROXY_URL_WITH_PORT = "http://localhost:56193";``` line to have your proxy information.
+* Edit the line below in the proxt-test.js to have your proxy information:
+  
+    ```var PROXY_URL_WITH_PORT = "http://localhost:56193";```
 
 ##Run:
 
